@@ -8,7 +8,9 @@ Languages I use (only public projects are listed):
    - Some work on my multiple kernel forks, e.g.
      - [GCC 12 fixups] for OrangePi5's vendor kernel
      - [attempt to bring OGU support] to existing kernel
-   - Some work on [my u-boot fork]
+     - [native support] of Amlogic's proprietary partitions on mainline kernel
+   - Some work on [my u-boot fork], multiple random boxes ported
+   - [nvr/c]
  - **C++** for CLI applications and daemons, e.g.
    - [CargoStranding]
    - [nvr/cpp]
@@ -52,12 +54,17 @@ he/him
 #### Principle
 Keep It Simple, Stupid. 
 
+#### Contact
+If you want to contact me on things not related to my Github projects, send an e-mail to pugokushin@gmail.com. **Do not send e-mail for personal support, I WILL NOT provide personal support due to limited time**.
+
 
 [ampart]: https://github.com/7Ji/ampart
 [eemount]: https://github.com/7Ji/eemount
 [GCC 12 fixups]: https://github.com/7Ji/linux-orangepi/tree/orange-pi-5.10-rk3588-gcc-12
 [attempt to bring OGU support]: https://github.com/7Ji/linux-amlogic-ce-ogu
+[native support]: https://github.com/7Ji/linux/commit/049bddc86d7e2d1a7727bbc6d268be9cf5e779d2
 [my u-boot fork]: https://github.com/7Ji/u-boot
+[nvr/c]: https://github.com/7Ji/nvr/tree/master/c
 [CargoStranding]: https://github.com/7Ji/CargoStranding
 [nvr/cpp]: https://github.com/7Ji/nvr/tree/master/cpp
 [mirai-ip-notifier]: https://github.com/7Ji/mirai-ip-notifier
