@@ -1,86 +1,36 @@
 ## Welcome to 7Ji's profile 
 
-### Skill
-Languages I use (only public projects are listed):
- - **C** for system, kernel and other low level stuffs, e.g.
-   - [ampart]
-   - [eemount]
-   - Some work on my multiple kernel forks, e.g.
-     - [GCC 12 fixups] for OrangePi5's vendor kernel
-     - [attempt to bring OGU support] to existing kernel
-     - [native support] of Amlogic's proprietary partitions on mainline kernel
-   - Some work on [my u-boot fork], multiple random boxes ported
-   - [nvr/c]
- - **C++** for CLI applications and daemons, e.g.
-   - [CargoStranding]
-   - [nvr/cpp]
- - **go** for network stuffs, e.g.
-   - [mirai-ip-notifier]
-   - [router-reporter]
- - **Python** for oneshot scripts and daemons, e.g.
-   - [videoArchiver.py]
-   - [nvr/python]
- - **Javascript** for web applications, e.g.
-   - [ampart-web-reporter] hosted on [my blog site][ampart-web-reporter-page]
-   - [CargoStrandingWeb] hosted on [my blog site][CargoStrandingWeb-page]
- - **Kotlin & Java** for Android applications, e.g.
-   - [HybridELEC Rebooter] (release only)
- - **Bash** for distros and daemons, e.g.
-   - [amlogic-s9xxx-archlinuxarm]
-   - [orangepi5-archlinuxarm]
-   - [EmuELEC]
-   - [HybridELEC]
-   - [auto-whu-openwrt]
-   - [auto-whu-standard]
+A FOSS enjoyer, creator, maintainer and contributor, preferring low-level over abstraction.
 
-I also do reverse-engineering, with some projects sharable including:
-  - [ampart] mentioned above, a partition tool that grants you freedom on adjusting Amlogic's proprietary eMMC partition table
-  - [HybridELEC] mentioned above, its Android+CE+EE triple bootable image branch (release only) many thought impossible
-  - [auto-whu-openwrt] and [auto-whu-standard] mentioned above, open-source alternative to Sangfor's proprietary authentication program
-  - [my blog site] has some interesting posts you may want to check up
+My blog site is available at https://7ji.github.io/ , but I don't write much there due to limited time.
 
-I also maintain different servers with different distros (ArchLinux, Debian, Ubuntu, etc) with different architecture (x86-64, aarch64, i686, arm, etc) on different providers (AWS, Azure, Bandwagon, self-hosted, etc) around the world, all of them owned by myself.
+Creator of the following projects:
+ - [ampart](https://github.com/7Ji/ampart), a partition tool for Amlogic's proprietary eMMC partition format mainly found on their Android firmware, in C, a [patchset for mainline kernel](https://github.com/7Ji/linux/commit/049bddc86d7e2d1a7727bbc6d268be9cf5e779d2) is also available to natively support such partitions.
+ - [git-mirrorer / gmr](https://github.com/7Ji/git-mirrorer), a tool to mirror git repos, and archive and checkout them with submodules included implicitly, in C, using libgit2 and libyaml.
+ - [YAopenvfD](https://github.com/7Ji/YAopenvfD), a helper daemon to improve the functionality of the [linux_openvfd](https://github.com/arthur-liberman/linux_openvfd) kernel module, for fragment LCD displays found on set-top boxes, in C.
+ - [eemount](https://github.com/7Ji/eemount), a system utility to efficiently and elegantly set up the external ROMs mounting for EmuELEC (see below), in C, using libsystemd.
+ - [pkgbuild-rs](https://github.com/7Ji/pkgbuild-rs), a naive [PKGBUILD](https://wiki.archlinux.org/title/PKGBUILD) parsing library, in Rust.
+ - [arch_repo_builder / arb](https://github.com/7Ji/arch_repo_builder), a builder to build an Arch Linux repo in a disk-space-and-network-efficient way, in Rust.
+ - [archrepo](https://github.com/7ji/archrepo), an Arch Linux / Arch Linux ARM repo, focusing on media center use cases, hosting pre-built kernel and video de/encoding packages, notably for Rockchip RK3588 (Orange Pi 5/5B/5Plus, Orange Pi 3B, Radxa Rock 5B) and Amlogic platforms, updated hourly.
+ - [amlogic-s9xxx-archlinuxarm](https://github.com/7Ji/amlogic-s9xxx-archlinuxarm), [orangepi5-archlinuxarm](https://github.com/7Ji/orangepi5-archlinuxarm/) and [orangepi5-rkloader](https://github.com/7Ji/orangepi5-rkloader) providing pre-built ALARM / bootloader images with my ported/maintained kernels pre-installed.
+ - [nvrust](https://github.com/7Ji/nvrust), a daemon to turn any Linux box into a Network Video Recorder, in Rust, using libffmpeg.
+ - [videoArchiver.py](https://github.com/7Ji/videoArchiver.py), a video archiving tool, in Python, using ffmpeg.
+ - [usb2host](https://github.com/7Ji/usb2host) in C, [router_reporter](https://github.com/7Ji/router_reporter) in Go, [mirai-ip-notifier](https://github.com/7Ji/mirai-ip-notifier) in Go, and other nice tools.
 
-I also maintain some packages for ArchLinux and ArchLinuxARM, some posted on AUR could be checked [here][AUR]
+Creater of the following organisations:
+ - [7Ji-PKGBUILDs](https://github.com/7Ji-PKGBUILDs), collections of PKGBUILDs (recipes to build Arch Linux package from) submitted/maintained/co-maintained by myself, focusing on kernel, video de/encoding, and more.
+ - [HybridELEC](https://github.com/HybridELEC), a downstream semi-distro to achieve side-by-side dual boot of CoreELEC (see below) and EmuELEC (see below), some special images are also released for chosen devices to achieve triple boot, with Android as the main OS. In various languages (including an Android App to switch OS) and based on kernel/booting reverse-engineering.
 
-#### Activity
-Outside of writing and maintaining my own projects, I contribute actively to open source projects I'm interested in, most of them are already listed above.
+Maintainer of the following projects:
+ - [EmuELEC](https://github.com/EmuELEC/EmuELEC), a distro focusing on smooth out-of-box retro gaming experience on entry-level ARM devices, for Amlogic and Rockchip devices. As the kernel expert in team to introduce support to new devices.
 
-All my Github contributions are part-time activity so please don't spam me with issues or non-issue questions.
+Contributor/Contributing to the following projects:
+ - [libgit2](https://github.com/libgit2/libgit2), a C library that achieves the functionality of git.
+ - [CoreELEC](https://github.com/CoreELEC/CoreELEC), a distro focusing on smooth out-of-box video playback experience on Amlogic devices, a Just Enough Operating System for Kodi, upstream distro of EmuELEC.
+ - [systemd](https://github.com/systemd/systemd), really no need to introduce,
+ - [archlinuxarm](https://github.com/archlinuxarm), a downstream distro of Arch Linux for ARM platforms.
 
-#### Pronoun
-he/him
-
-#### Principle
-Keep It Simple, Stupid. 
-
-#### Contact
-If you want to contact me on things not related to my Github projects, send an e-mail to pugokushin@gmail.com. **Do not send e-mail for personal support, I WILL NOT provide personal support due to limited time**.
-
-
-[ampart]: https://github.com/7Ji/ampart
-[eemount]: https://github.com/7Ji/eemount
-[GCC 12 fixups]: https://github.com/7Ji/linux-orangepi/tree/orange-pi-5.10-rk3588-gcc-12
-[attempt to bring OGU support]: https://github.com/7Ji/linux-amlogic-ce-ogu
-[native support]: https://github.com/7Ji/linux/commit/049bddc86d7e2d1a7727bbc6d268be9cf5e779d2
-[my u-boot fork]: https://github.com/7Ji/u-boot
-[nvr/c]: https://github.com/7Ji/nvr/tree/master/c
-[CargoStranding]: https://github.com/7Ji/CargoStranding
-[nvr/cpp]: https://github.com/7Ji/nvr/tree/master/cpp
-[mirai-ip-notifier]: https://github.com/7Ji/mirai-ip-notifier
-[router-reporter]: https://github.com/7Ji/router_reporter
-[videoArchiver.py]: https://github.com/7Ji/videoArchiver.py
-[nvr/python]: https://github.com/7Ji/nvr/tree/master/python
-[ampart-web-reporter]: https://github.com/7Ji/ampart-web-reporter
-[CargoStrandingWeb]: https://github.com/7Ji/CargoStrandingWeb
-[ampart-web-reporter-page]: https://7ji.github.io/ampart-web-reporter
-[CargoStrandingWeb-page]: https://7ji.github.io/CargoStranding
-[HybridELEC Rebooter]: https://github.com/7Ji/HybridELEC_Rebooter
-[amlogic-s9xxx-archlinuxarm]: https://github.com/7Ji/amlogic-s9xxx-archlinuxarm
-[orangepi5-archlinuxarm]: https://github.com/7Ji/orangepi5-archlinuxarm
-[EmuELEC]: https://github.com/EmuELEC/EmuELEC
-[HybridELEC]: https://github.com/7Ji/HybridELEC
-[auto-whu-openwrt]: https://github.com/7Ji/auto-whu-openwrt
-[auto-whu-standard]: https://github.com/7Ji/auto-whu-standard
-[my blog site]: https://7ji.github.io/
-[AUR]: https://aur.archlinux.org/packages?O=0&SeB=M&K=7Ji&outdated=&SB=p&SO=d&PP=50&submit=Go
+Some of my upstreamable / non-upstreamable patches to mainline kernel and u-boot are hosted in the following repos/branches:
+ - [7Ji/linux](https://github.com/7Ji/linux), the default amlogic tree contains my patchsets to enable Amlogic partitions support, port several device trees, and add/improve the JL21xx network PHY driver and openvfd driver.  
+  I also submit to LKML directly when I consider them upstreamable, like the one for the embedded partitions in block subsystem ([v1](https://lore.kernel.org/linux-block/25655037ca3e404e9111341ea423f5ce@AcuMS.aculab.com/T/#t), [v2](https://lore.kernel.org/linux-block/20240102024115.4395-1-pugokushin@gmail.com/T/#u))
+ - [7Ji/u-boot](https://github.com/7Ji/u-boot), the default random-boxes tree contains my patchsets to port/add several device trees, and add support for environment-based partitions.
