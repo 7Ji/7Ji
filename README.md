@@ -1,7 +1,9 @@
 ## Welcome to 7Ji's profile 
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
+
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=7Ji&langs_count=5&theme=tokyonight)]()
+
 [![My Github Insights](https://metrics.lecoq.io/insights/7Ji)]()
 
 A FOSS enjoyer, creator, maintainer and contributor, preferring low-level over abstraction.
