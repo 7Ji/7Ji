@@ -1,8 +1,10 @@
 ## Welcome to 7Ji's profile 
 
+I'm working as an OS engineer & kernel engineer currently.
+
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
-I write some blogs at https://7ji.github.io/ when I see fit, but I prefer to document the projects in tree and write codes that need no extra ducument to understand, so the posts there only focus on non-development stuffs, like servers, booting, reverse-engineering, etc.
+I write some blogs at https://7ji.github.io/ when I see fit. The posts there only focus on non-development stuffs, like servers, booting, reverse-engineering, etc, as I prefer to document the projects in tree and write codes that need no extra ducument to understand.
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=7Ji&langs_count=5&theme=tokyonight)]()
 
@@ -25,8 +27,8 @@ I created, lead and maintain the following organisations:
  - [7Ji-PKGBUILDs](https://github.com/7Ji-PKGBUILDs), collections of PKGBUILDs (recipes to build Arch Linux package from) submitted/maintained/co-maintained by myself, focusing on kernel, video de/encoding, and more.
  - [HybridELEC](https://github.com/HybridELEC), a downstream semi-distro to achieve side-by-side dual boot of CoreELEC (see below) and EmuELEC (see below), some special images are also released for chosen devices to achieve triple boot, with Android as the main OS. In various languages (including an Android App to switch OS) and based on kernel/booting reverse-engineering.
 
-I maintain the following projects:
- - [EmuELEC](https://github.com/EmuELEC/EmuELEC), a distro focusing on smooth out-of-box retro gaming experience on entry-level ARM devices, for Amlogic and Rockchip devices. As the kernel expert in team to introduce support to new devices.
+I maintaind the following projects:
+ - [EmuELEC](https://github.com/EmuELEC/EmuELEC) (during 2022-2023), a distro focusing on smooth out-of-box retro gaming experience on entry-level ARM devices, for Amlogic and Rockchip devices. As the kernel expert in team to introduce support to new devices.
 
 I contributed or am contributing to the following projects:
  - [linux](https://kernel.org), the kernel, to mainline and its many vendor BSP forks (see below)
