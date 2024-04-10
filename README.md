@@ -1,6 +1,6 @@
-## Welcome to 7Ji's profile 
+## Welcome to Guoxin "7Ji" Pu's profile 
 
-I'm working as an OS engineer & kernel engineer currently.
+Full-time OS engineer & kernel engineer; a free and open source software enjoyer, creator, maintainer and contributor; preferring low-level and disliking over-abstraction.
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
