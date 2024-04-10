@@ -1,6 +1,6 @@
 ## Welcome to Guoxin "7Ji" Pu's profile 
 
-Full-time OS engineer & kernel engineer; a free and open source software enjoyer, creator, maintainer and contributor; preferring low-level and disliking over-abstraction.
+A free and open source software enjoyer, creator, maintainer and contributor; preferring low-level and disliking over-abstraction.
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
