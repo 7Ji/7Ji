@@ -11,7 +11,8 @@ I write some blogs at https://7ji.github.io/ when I see fit. The posts there onl
 I use various programming languages, for various things they're best used for. My favourites are C which I consider myself an expert in, and Rust which I love its strict typing and compile-time checking.
 
 I created and maintain the following projects:
- - [ampart](https://github.com/7Ji/ampart), a partition tool for Amlogic's proprietary eMMC partition format mainly found on their Android firmware, in C, a [patchset for mainline kernel](https://github.com/7Ji/linux/commit/049bddc86d7e2d1a7727bbc6d268be9cf5e779d2) is also available to natively support such partitions.
+ - [ampart](https://github.com/7Ji/ampart), a partition tool for Amlogic's proprietary eMMC partition format mainly found on their Android firmware, in C, based on my reverse-engineering, a [patchset for mainline kernel](https://github.com/7Ji/linux/commit/049bddc86d7e2d1a7727bbc6d268be9cf5e779d2) is also available to natively support such partitions.
+ - [ampack](https://github.com/7Ji/ampack), a tool to unpack, convert and (re)pack Amlogic burning images, in Rust, also based on my reverse-engineering, aiming to replace AML's proprietary `aml_image_v2_packer` binray.
  - [git-mirrorer / gmr](https://github.com/7Ji/git-mirrorer), a tool to mirror git repos, and archive and checkout them with submodules included implicitly, in C, using libgit2 and libyaml.
  - [YAopenvfD](https://github.com/7Ji/YAopenvfD), a helper daemon to improve the functionality of the [linux_openvfd](https://github.com/arthur-liberman/linux_openvfd) kernel module, for fragment LCD displays found on set-top boxes, in C.
  - [eemount](https://github.com/7Ji/eemount), a system utility to efficiently and elegantly set up the external ROMs mounting for EmuELEC (see below), in C, using libsystemd.
