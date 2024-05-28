@@ -1,34 +1,38 @@
 ## Welcome to Guoxin "7Ji" Pu's profile 
 
-A free and open source software enjoyer, creator, maintainer and contributor; preferring low-level and disliking over-abstraction.
+A free and open source software enjoyer, creator, maintainer and contributor; working on OS and kernel.
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
-I write some blogs at https://7ji.github.io/ when I see fit. The posts there only focus on non-development stuffs, like servers, booting, reverse-engineering, etc, as I prefer to document the projects in tree and write codes that need no extra ducument to understand.
+My _current_ blog site is at https://7ji.github.io/ . The posts there only focus on non-development stuffs, like servers, booting, reverse-engineering, etc, note there's none of content about my FOSS projects, as I prefer to document the projects in tree and get everything recorded in issues or any other public places.
+
+My email is publicly available, but, please **don't send private email asking about the public projects**, I've ensured the publicly avaiable documentation and existing issues be enough to get you around. If you do send, be prepared that your email will **either be ignored or get an impatient, unfriendly reply**.
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=7Ji&langs_count=5&theme=tokyonight)]()
 
-I use various programming languages, for various things they're best used for. My favourites are C which I consider myself an expert in, and Rust which I love its strict typing and compile-time checking.
+I don't stand in favor or against any programming languages, but I stand in favor of a clear, easy-to-follow coding model that I emphase in most of my projects (many of them even follow different coding styles).
 
-I created and maintain the following projects:
+I created the following projects and maintain them actively:
  - [ampart](https://github.com/7Ji/ampart), a partition tool for Amlogic's proprietary eMMC partition format mainly found on their Android firmware, in C, based on my reverse-engineering, a [patchset for mainline kernel](https://github.com/7Ji/linux/commit/049bddc86d7e2d1a7727bbc6d268be9cf5e779d2) is also available to natively support such partitions.
  - [ampack](https://github.com/7Ji/ampack), a tool to unpack, convert and (re)pack Amlogic burning images, in Rust, also based on my reverse-engineering, aiming to replace AML's proprietary `aml_image_v2_packer` binray.
  - [git-mirrorer / gmr](https://github.com/7Ji/git-mirrorer), a tool to mirror git repos, and archive and checkout them with submodules included implicitly, in C, using libgit2 and libyaml.
  - [YAopenvfD](https://github.com/7Ji/YAopenvfD), a helper daemon to improve the functionality of the [linux_openvfd](https://github.com/arthur-liberman/linux_openvfd) kernel module, for fragment LCD displays found on set-top boxes, in C.
  - [eemount](https://github.com/7Ji/eemount), a system utility to efficiently and elegantly set up the external ROMs mounting for EmuELEC (see below), in C, using libsystemd.
- - [pkgbuild-rs](https://github.com/7Ji/pkgbuild-rs), a naive [PKGBUILD](https://wiki.archlinux.org/title/PKGBUILD) parsing library, in Rust.
- - [arch_repo_builder / arb](https://github.com/7Ji/arch_repo_builder), a builder to build an Arch Linux repo in a disk-space-and-network-efficient way, in Rust.
+ - [pkgbuild-rs](https://github.com/7Ji/pkgbuild-rs), a naive [PKGBUILD](https://wiki.archlinux.org/title/PKGBUILD) parsing library, that runs on any distro or platform (even non Arch), in Rust.
+ - [alnopm](https://github.com/7Ji/alnopm), an Arch Linux Pacman repository database parsing library, that runs on any distro or platform (even non Arch), in Rust.
+ - [arb](https://github.com/7Ji/arb), a builder to build an Arch Linux repo in a disk-space-and-network-efficient way, in Rust.
+ - [sd-networkd-wg-ddns](https://github.com/7Ji/sd-networkd-wg-ddns), a systemd-networkd wireguard netdev endpoints DynDNS updater, in C.
  - [archrepo](https://github.com/7ji/archrepo), an Arch Linux / Arch Linux ARM repo, focusing on media center use cases, hosting pre-built kernel and video de/encoding packages, notably for Rockchip RK3588 (Orange Pi 5/5B/5Plus, Orange Pi 3B, Radxa Rock 5B) and Amlogic platforms, updated hourly.
  - [amlogic-s9xxx-archlinuxarm](https://github.com/7Ji/amlogic-s9xxx-archlinuxarm), [orangepi5-archlinuxarm](https://github.com/7Ji/orangepi5-archlinuxarm/) and [orangepi5-rkloader](https://github.com/7Ji/orangepi5-rkloader) providing pre-built ALARM / bootloader images with my ported/maintained kernels pre-installed.
  - [nvrust](https://github.com/7Ji/nvrust), a daemon to turn any Linux box into a Network Video Recorder, in Rust, using libffmpeg.
  - [videoArchiver.py](https://github.com/7Ji/videoArchiver.py), a video archiving tool, in Python, using ffmpeg.
  - [usb2host](https://github.com/7Ji/usb2host) in C, [router_reporter](https://github.com/7Ji/router_reporter) in Go, [mirai-ip-notifier](https://github.com/7Ji/mirai-ip-notifier) in Go, [arch_pkgbuilds_dumper](https://github.com/7Ji/arch_pkgbuilds_dumper) in Python, [CargoStranding](https://github.com/7Ji/CargoStranding) in C++, [CargoStrandingWeb](https://github.com/7Ji/CargoStrandingWeb) in Javascript, and other nice tools.
 
-I created, lead and maintain the following organisations:
+I created the following organisations and actively lead & maintain them:
  - [7Ji-PKGBUILDs](https://github.com/7Ji-PKGBUILDs), collections of PKGBUILDs (recipes to build Arch Linux package from) submitted/maintained/co-maintained by myself, focusing on kernel, video de/encoding, and more.
  - [HybridELEC](https://github.com/HybridELEC), a downstream semi-distro to achieve side-by-side dual boot of CoreELEC (see below) and EmuELEC (see below), some special images are also released for chosen devices to achieve triple boot, with Android as the main OS. In various languages (including an Android App to switch OS) and based on kernel/booting reverse-engineering.
 
-I maintaind the following projects:
+I maintaind the following projects previously and enjoyed the experience:
  - [EmuELEC](https://github.com/EmuELEC/EmuELEC) (during 2022-2023), a distro focusing on smooth out-of-box retro gaming experience on entry-level ARM devices, for Amlogic and Rockchip devices. As the kernel expert in team to introduce support to new devices.
 
 I contributed or am contributing to the following projects:
