@@ -1,6 +1,6 @@
 ## Welcome to Guoxin "7Ji" Pu's profile 
 
-A free and open source software enjoyer, creator, maintainer and contributor; working on OS and kernel.
+A free and open source software enjoyer, creator, maintainer and contributor; OS and kernel engineer.
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
@@ -22,6 +22,7 @@ I created the following projects and maintain them actively:
  - [alnopm](https://github.com/7Ji/alnopm), an Arch Linux Pacman repository database parsing library, that runs on any distro or platform (even non Arch), in Rust.
  - [arb](https://github.com/7Ji/arb), a builder to build an Arch Linux repo in a disk-space-and-network-efficient way, in Rust.
  - [sd-networkd-wg-ddns](https://github.com/7Ji/sd-networkd-wg-ddns), a systemd-networkd wireguard netdev endpoints DynDNS updater, in C.
+ - [wireguard-deployer](https://github.com/7Ji/wireguard-deployer), a single-config WireGuard keys and systemd-networkd + OpenWrt configs generator (also as tar with correct permissions), in Rust.
  - [archrepo](https://github.com/7ji/archrepo), an Arch Linux / Arch Linux ARM repo, focusing on media center use cases, hosting pre-built kernel and video de/encoding packages, notably for Rockchip RK3588 (Orange Pi 5/5B/5Plus, Orange Pi 3B, Radxa Rock 5B) and Amlogic platforms, updated hourly.
  - [amlogic-s9xxx-archlinuxarm](https://github.com/7Ji/amlogic-s9xxx-archlinuxarm), [orangepi5-archlinuxarm](https://github.com/7Ji/orangepi5-archlinuxarm/) and [orangepi5-rkloader](https://github.com/7Ji/orangepi5-rkloader) providing pre-built ALARM / bootloader images with my ported/maintained kernels pre-installed.
  - [nvrust](https://github.com/7Ji/nvrust), a daemon to turn any Linux box into a Network Video Recorder, in Rust, using libffmpeg.
@@ -48,4 +49,3 @@ Some of my upstreamable / non-upstreamable patches to mainline kernel and u-boot
  - [7Ji/linux](https://github.com/7Ji/linux), the default amlogic tree contains my patchsets to enable Amlogic partitions support, port several device trees, and add/improve the JL21xx network PHY driver and openvfd driver.  
  - [7Ji/u-boot](https://github.com/7Ji/u-boot), the default random-boxes tree contains my patchsets to port/add several device trees, and add support for environment-based partitions.
  - [7Ji/linux-orangepi](https://github.com/7Ji/linux-orangepi), the default orange-pi-5.10-rk3588-gcc-12 branch contains my fixes to drivers, filesystem, memory management and more to make the BSP kernel buildable on post-gcc-12 toolchains.
- - I also submit to LKML directly when I consider them upstreamable, like the one for the embedded partitions in block subsystem ([v1](https://lore.kernel.org/linux-block/25655037ca3e404e9111341ea423f5ce@AcuMS.aculab.com/T/#t), [v2](https://lore.kernel.org/linux-block/20240102024115.4395-1-pugokushin@gmail.com/T/#u))
