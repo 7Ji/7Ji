@@ -1,16 +1,14 @@
 ## Welcome to Guoxin "7Ji" Pu's profile 
 
-A free and open source software enjoyer, creator, maintainer and contributor; OS and kernel engineer.
+A free and open source software enjoyer, creator, maintainer and contributor; hardware tinkerer; full-time OS and kernel engineer.
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
-My _current_ blog site is at https://7ji.github.io/ . The posts there only focus on non-development stuffs, like servers, booting, reverse-engineering, etc, note there's none of content about my FOSS projects, as I prefer to document the projects in tree and get everything recorded in issues or any other public places.
+My _current_ _public_ blog site is at https://7ji.github.io/ . The posts there only focus on non-development stuffs, like servers, booting, reverse-engineering, etc, note there's none of content about my FOSS projects, as I prefer to document the projects in tree and get everything recorded in issues or any other public places. There's nothing about daily life so be prepared for the information density.
 
-My email is publicly available, but, please **don't send private email asking about the public projects**, I've ensured the publicly avaiable documentation and existing issues be enough to get you around. If you do send, be prepared that your email will **either be ignored or get an impatient, unfriendly reply**.
+My email is publicly available, but, please **don't send private email asking about the public projects**, I've ensured the publicly avaiable documentation and existing issues be enough to get you around. **Keep public subjects public**, i.e. open an issue instead of sending an email. If you do send, be warned that your email will **either be ignored or get an impatient, unfriendly reply**.
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=7Ji&langs_count=5&theme=tokyonight)]()
-
-I don't stand in favor or against any programming languages, but I stand in favor of a clear, easy-to-follow coding model that I emphase in most of my projects (many of them even follow different coding styles).
 
 I created the following projects and maintain them actively:
  - [ampart](https://github.com/7Ji/ampart), a partition tool for Amlogic's proprietary eMMC partition format mainly found on their Android firmware, in C, based on my reverse-engineering, a [patchset for mainline kernel](https://github.com/7Ji/linux/commit/049bddc86d7e2d1a7727bbc6d268be9cf5e779d2) is also available to natively support such partitions.
@@ -30,20 +28,13 @@ I created the following projects and maintain them actively:
  - [usb2host](https://github.com/7Ji/usb2host) in C, [router_reporter](https://github.com/7Ji/router_reporter) in Go, [mirai-ip-notifier](https://github.com/7Ji/mirai-ip-notifier) in Go, [arch_pkgbuilds_dumper](https://github.com/7Ji/arch_pkgbuilds_dumper) in Python, [CargoStranding](https://github.com/7Ji/CargoStranding) in C++, [CargoStrandingWeb](https://github.com/7Ji/CargoStrandingWeb) in Javascript, and other nice tools.
 
 I created the following organisations and actively lead & maintain them:
- - [7Ji-PKGBUILDs](https://github.com/7Ji-PKGBUILDs), collections of PKGBUILDs (recipes to build Arch Linux package from) submitted/maintained/co-maintained by myself, focusing on kernel, video de/encoding, and more.
+ - [7Ji-PKGBUILDs](https://github.com/7Ji-PKGBUILDs), collections of PKGBUILDs (recipes to build Arch Linux package from) submitted/maintained/co-maintained by myself, focusing on kernel, video de/encoding, and more. Consider it my own AUR.
  - [HybridELEC](https://github.com/HybridELEC), a downstream semi-distro to achieve side-by-side dual boot of CoreELEC (see below) and EmuELEC (see below), some special images are also released for chosen devices to achieve triple boot, with Android as the main OS. In various languages (including an Android App to switch OS) and based on kernel/booting reverse-engineering.
 
 I maintaind the following projects previously and enjoyed the experience:
  - [EmuELEC](https://github.com/EmuELEC/EmuELEC) (during 2022-2023), a distro focusing on smooth out-of-box retro gaming experience on entry-level ARM devices, for Amlogic and Rockchip devices. As the kernel expert in team to introduce support to new devices.
 
-I contributed or am contributing to the following projects:
- - [linux](https://kernel.org), the kernel, to mainline and its many vendor BSP forks (see below)
- - [u-boot](https://github.com/u-boot/u-boot), the bootloader, to mainline and its many vendor BSP forks (see below)
- - [systemd](https://github.com/systemd/systemd), a system and service manager
- - [libgit2](https://github.com/libgit2/libgit2), a cross-platform, linkable library implementation of Git
- - [CoreELEC](https://github.com/CoreELEC/CoreELEC), a lightweight OS for Kodi
- - [archlinuxarm](https://github.com/archlinuxarm), a downstream distro of Arch Linux for ARM platforms.
- - [armbian fork](https://github.com/ophub/amlogic-s9xxx-armbian), a downstream distro of Debian and a build framework.
+I contributed to various projects and here's not enough space to document them.
 
 Some of my upstreamable / non-upstreamable patches to mainline kernel and u-boot are hosted in the following repos/branches:
  - [7Ji/linux](https://github.com/7Ji/linux), the default amlogic tree contains my patchsets to enable Amlogic partitions support, port several device trees, and add/improve the JL21xx network PHY driver and openvfd driver.  
