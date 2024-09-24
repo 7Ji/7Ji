@@ -1,14 +1,10 @@
 ## Welcome to Guoxin "7Ji" Pu's profile 
 
-A free and open source software enjoyer, creator, maintainer and contributor
-
 Born a tinkerer, majored in business & trading, led campus media union, now working as an OS & kernel developer
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
-My _current_ _public_ blog site is at https://7ji.github.io/ . The posts there only focus on non-development stuffs, like servers, booting, reverse-engineering, etc, note there's none of content about my FOSS projects, as I prefer to document the projects in tree and get everything recorded in issues or any other public places. There's nothing about daily life so be prepared for the information density.
-
-My email is publicly available, but, please **don't send private email asking about the public projects**, I've ensured the publicly avaiable documentation and existing issues be enough to get you around. **Keep public subjects public**, i.e. open an issue instead of sending an email. If you do send, be warned that your email will **either be ignored or get an impatient, unfriendly reply**.
+My _current_ _public_ blog site is at https://7ji.github.io/ . 
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=7Ji&langs_count=5&theme=tokyonight)]()
 
