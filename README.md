@@ -1,6 +1,6 @@
 ## Welcome to Guoxin "7Ji" Pu's profile 
 
-Born a tinkerer, majored in business & trading, led campus media union, now working full time on OS, kernel and compiler.
+Born a tinkerer, majored in business & trading, led campus media union, now senior engineer on OS, kernel and compiler.
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=7Ji&count_private=true&theme=tokyonight&showicons=true)]()
 
